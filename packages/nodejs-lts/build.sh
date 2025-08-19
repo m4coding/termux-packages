@@ -135,7 +135,7 @@ termux_step_configure() {
 		--shared-zlib \
 		--with-intl=system-icu \
 		--cross-compiling \
-  		--shared \
+		--shared \
 		--ninja
 
 	export LD_LIBRARY_PATH=$TERMUX_PKG_HOSTBUILD_DIR/icu-installed/lib
